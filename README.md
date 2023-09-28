@@ -1,10 +1,3 @@
----
-theme: /Users/mkf/Documents/theme.json
-author: MKF
-date: MMMM dd, YYYY
-paging: Slide %d / %d
----
-
 # CSS
 CSS is all about adding styles and layout to a webpage.
 
