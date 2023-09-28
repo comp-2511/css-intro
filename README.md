@@ -1,3 +1,10 @@
+---
+theme: /Users/mkf/Documents/theme.json
+author: MKF
+date: MMMM dd, YYYY
+paging: Slide %d / %d
+---
+
 # CSS
 CSS is all about adding styles and layout to a webpage.
 
@@ -269,3 +276,52 @@ h2 ~ ol {font-style: italic;}
 ```
 
 They don't have to be adjacent.
+
+---
+
+# CSS Pseudo-classes
+A pseudo-class is used to define a special state of an element.
+
+---
+
+## `:active`
+When you click on an element.
+
+---
+
+## `:checked`
+Selects every checked element.
+
+---
+
+## `:hover`
+When you hover your mouse over an element.
+
+---
+
+## `:disabled`
+Selects every disabled element.
+
+---
+
+## `:empty`
+Selects every empty element.
+
+---
+
+## `:first-child`
+Selects an element if it's the first child of its parent.
+
+Also, `:last-child`, `:nth-child(n)`.
+
+---
+
+## `:first-of-type`
+Selects every element if it's the first of its type in relation to its siblings.
+
+Also, `:last-of-type`, `:nth-of-type(n)`.
+
+---
+
+## `:not(selector)`
+Selects every element that is not part of the selector.
