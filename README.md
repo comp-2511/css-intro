@@ -272,49 +272,49 @@ They don't have to be adjacent.
 
 ---
 
-# CSS Pseudo-classes
+## CSS Pseudo-classes
 A pseudo-class is used to define a special state of an element.
 
 ---
 
-## `:active`
+### `:active`
 When you click on an element.
 
 ---
 
-## `:checked`
+### `:checked`
 Selects every checked element.
 
 ---
 
-## `:hover`
+### `:hover`
 When you hover your mouse over an element.
 
 ---
 
-## `:disabled`
+### `:disabled`
 Selects every disabled element.
 
 ---
 
-## `:empty`
+### `:empty`
 Selects every empty element.
 
 ---
 
-## `:first-child`
+### `:first-child`
 Selects an element if it's the first child of its parent.
 
 Also, `:last-child`, `:nth-child(n)`.
 
 ---
 
-## `:first-of-type`
+### `:first-of-type`
 Selects every element if it's the first of its type in relation to its siblings.
 
 Also, `:last-of-type`, `:nth-of-type(n)`.
 
 ---
 
-## `:not(selector)`
+### `:not(selector)`
 Selects every element that is not part of the selector.
