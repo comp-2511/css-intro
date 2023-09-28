@@ -318,3 +318,20 @@ Also, `:last-of-type`, `:nth-of-type(n)`.
 
 ### `:not(selector)`
 Selects every element that is not part of the selector.
+
+---
+
+## CSS Specificity
+Specificity is an algorithm that calculates the weight that is applied to a given CSS declaration. In case of a conflict, the selector with the highest weight wins.
+
+### Calculating Specificity
+
+
+#### ID column
+Includes only ID selectors, such as #example. For each ID in a matching selector, add 1-0-0 to the weight value.
+
+#### CLASS column
+Includes class selectors, such as .myClass, attribute selectors like `[type="radio"]` and `[lang|="fr"]`, and pseudo-classes, such as `:hover`, `:nth-of-type(3n)`, and `:required`. For each class, attribute selector, or pseudo-class in a matching selector, add 0-1-0 to the weight value.
+
+#### TYPE column
+Includes type selectors, such as `p`, `h1`, and `td`, and pseudo-elements like `::before`, `::placeholder`, and all other selectors with double-colon notation. For each type or pseudo-element in a matching selector, add 0-0-1 to the weight value.
